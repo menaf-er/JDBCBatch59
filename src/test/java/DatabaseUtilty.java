@@ -11,7 +11,7 @@ public class DatabaseUtilty {
     public static void createConnection() {
         String url = "jdbc:mysql://localhost:3306/okul";
         String user = "root";
-        String password = "Buraya kendi sifrenizi yazacaksiniz.";
+        String password = "1234";
         try {
             connection = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {

@@ -7,7 +7,7 @@ public class Query04 {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC", "root", "Buraya kendi sifrenizi yazacaksiniz.");
+        Connection con =  DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC", "root", "1234");
 
         //Statement st = con.createStatement();
 
